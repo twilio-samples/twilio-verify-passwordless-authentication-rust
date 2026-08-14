@@ -17,9 +17,9 @@ This project demonstrates how to implement passwordless authentication via OTP i
 To run the app locally, you need the following:
 
 * {rust}[Rust] and {cargo}[Cargo] or above
-* {composer}[Composer] installed globally
 * {try-twilio}[A Twilio account with] an active phone number that can send SMS
 * Your preferred code editor or IDE
+* Your preferred web browser
 * Some terminal experience is helpful, though not required
 
 == Quickstart
