@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verifcation Status</title>
+    <link href="https://assets.twilio.com/public_assets/paste-fonts/1.5.2/fonts.css" rel="stylesheet">
+    <link href="/assets/css/paste.css" rel="stylesheet">
+</head>
+<body class="container">
+    <main>
+        <h1>Verification Status</h1>
+        <p class="alert {{# if status }}alert-success{{ else }}alert-error{{/if}}">
+            {{ message }}
+        </p>
+    </main>
+</body>
+</html>
+

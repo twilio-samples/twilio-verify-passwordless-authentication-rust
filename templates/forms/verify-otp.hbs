@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verify OTP</title>
+    <link href="https://assets.twilio.com/public_assets/paste-fonts/1.5.2/fonts.css" rel="stylesheet">
+    <link href="/assets/css/paste.css" rel="stylesheet">
+</head>
+<body class="container">
+    <main>
+        <h1>Verify OTP Code</h1>
+        <form action="/verify" method="post" class="mt-60">
+            <div class="mb-60">
+                <label for="code">Enter the OTP (6 digits):</label>
+                <input
+                    autocomplete="one-time-code"
+                    id="code"
+                    inputmode="numeric"
+                    maxlength="6"
+                    name="code"
+                    pattern="\d{6}"
+                    required
+                    type="text"
+                >
+            </div>
+            <button type="submit" class="primary">Verify</button>
+        </form>
+    </main>
+</body>
+</html>
+
