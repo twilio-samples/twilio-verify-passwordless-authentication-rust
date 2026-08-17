@@ -15,7 +15,7 @@ axum-template = { version = "3.0.0", features = ["handlebars"] }
 axum_session = "0.20.1"
 dotenvy = "0.15.7"
 handlebars = "6.4.3"
-rustlio = { path = "../rustlio" }
+rustlio = { version = "0.3.0" }
 serde = { version = "1.0.228", features = ["derive"] }
 stringcase = "1.0.0"
 tokio = { version = "1.52.4", features = ["macros", "rt-multi-thread"] }
